@@ -54,7 +54,7 @@
 
       <div class="row" style="margin: 0 auto">
         <div class="col-lg-6 col-md-6 col-sm-6" style="padding-left: 30px;padding-right: 0px;padding-top: 30px;margin:10px auto 10px 0px ;width:30%">
-          <h1>Grab fresh and delicous food now.</h1>
+          <h1>Grab fresh and delicous food today.</h1>
           <button type="button" class="btn btn-md btn-outline-light"><i class="fab fa-apple"></i> Download</button>
           <button type="button" class="btn btn-md btn-dark"><i class="fab fa-google-play"></i> Download</button>
         </div>
@@ -100,18 +100,44 @@
 
     <!-- Testimonials -->
 
+
+
+
+
+
+
     <section id="testimonials">
 
-      <h2>I no longer have to drive a long way across town to find the fresh food. <br>I've found the best vegitables here.</h2>
 
 
+      <div id="carouselExampleControls" class="carousel slide" data-ride=" carousel" data-interval="2000" data-pause="hover">
+        <div class="carousel-inner">
 
-      <img src="images/gr.png" alt="dog-profile" style="border-radius:8px;">
-      <em>Da-Chun, Chang-hwa</em>
+          <div class="carousel-item active" style="background-color:#ff4c68">
+            <h2>I no longer have to drive a long way across town to find the fresh food. I've found the best vegitables here.</h2>
+            <img class="tt-image" src="images/gr.png" alt="grape-profile" >
+            <em>Da-Chun, Chang-hwa</em>
+          </div>
+          <div class="carousel-item  " style="background-color:#ff4c68">
+            <h2>It is damn good. I have never tasted something so delicous</h2>
+            <img class="tt-image" src="images/pinea.jpg" alt="grape-profile" >
+            <em>CHu-Bei, Hsin-Chu</em>
+          </div>
+          <div class="carousel-item  " style="background-color:#ff4c68">
+            <h2>Nothing Compares.</h2>
+            <img class="tt-image" src="images/lime.jpg" alt="grape-profile" >
+            <em>Da-Ann, Taipei</em>
+          </div>
+        </div>
 
-      <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+
 
     </section>
 
@@ -119,16 +145,13 @@
     <!-- Press -->
 
     <section id="press">
-      <div class="row">
 
-      </div>
-      <div class="col-lg-6 col-md-4 col-sm-6" style="margin:10px 10px 10px 10px">
+        <img class="presslogo" src="images/fb_basket.png" alt="fb-logo">
+        <img class="presslogo" src="images/grabbi.png" alt="grb-logo">
 
-        <img src="images/techcrunch.png" alt="tc-logo" width="180px" style="margin:10px 10px;">
-        <img src="images/tnw.png" alt="tnw-logo" width="180px" style="margin:10px 10px;">
-        <img src="images/bizinsider.png" alt="biz-insider-logo" width="180px" style="margin:10px 10px;">
-        <img src="images/mashable.png" alt="mashable-logo" width="180px" style="margin:10px 10px;">
-      </div>
+        <img class="presslogo" src="images/techcrunch.png" alt="tc-logo">
+        <img class="presslogo" src="images/tnw.png" alt="tnw-logo">
+        <img class="presslogo" src="images/mashable.png" alt="mashable-logo">
 
     </section>
 
@@ -141,29 +164,62 @@
       <p>Simple and affordable price plans for your fresh food selection.</p>
 
 
-      <h3>Cabbage</h3>
-      <h2>Free</h2>
-      <p>5 Matches Per Day</p>
-      <p>10 Messages Per Day</p>
-      <p>Unlimited App Usage</p>
-      <button type="button" class="btn btn-md btn-outline-light">Sign Up</button>
 
 
-      <h3>Basket</h3>
-      <h2>$49 / mo</h2>
-      <p>Unlimited Matches</p>
-      <p>Unlimited Messages</p>
-      <p>Unlimited App Usage</p>
-      <button type="button" class="btn btn-md btn-outline-light">Sign Up</button>
+      <div class="container pricingcard">
+            <div class="card-deck mb-3 text-center">
+              <div class="card mb-4 box-shadow">
+                <div class="card-header">
+                  <h4 class="my-0 font-weight-normal">Brown Bag</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$499<small class="text-muted">/ week</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>1Kg Fruit</li>
+                    <li>2Kg Green Veggi</li>
+                    <li>3 Pieces Bread</li>
+                    <li>Mineral Water Refill</li>
+
+                  </ul>
+                  <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up now</button>
+                </div>
+              </div>
+              <div class="card mb-4 box-shadow">
+                <div class="card-header">
+                  <h4 class="my-0 font-weight-normal">Basket</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$899 <small class="text-muted">/ week</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>1Kg Fruit</li>
+                    <li>2Kg Green Veggi</li>
+                    <li>3 Pieces Bread</li>
+                    <li>Mineral Water Refill</li>
+                  </ul>
+                  <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+                </div>
+              </div>
+              <div class="card mb-4 box-shadow">
+                <div class="card-header">
+                  <h4 class="my-0 font-weight-normal">Big Pack</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$1499 <small class="text-muted">/ week</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>1Kg Fruit</li>
+                    <li>2Kg Green Veggi</li>
+                    <li>1 Kg Fish</li>
+                    <li>Mineral Water Refill</li>
+
+                  </ul>
+                  <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+                </div>
+              </div>
+            </div>
 
 
-      <h3>Banquet</h3>
-      <h2>$99 / mo</h2>
-      <p>Pirority Listing</p>
-      <p>Unlimited Selection</p>
-      <p>Unlimited Messages</p>
-      <p>Unlimited App Usage</p>
-      <button type="button" class="btn btn-md btn-outline-light">Sign Up</button>
+          </div>
+
 
     </section>
 
@@ -172,7 +228,7 @@
 
     <section id="cta">
 
-      <h3>Find the True Freshness for table Today.</h3>
+      <h3>Find the True Freshness for your table today.</h3>
       <button type="button" class="btn btn-md btn-outline-light"><i class="fab fa-apple"></i> Download</button>
       <button type="button" class="btn btn-md btn-dark"><i class="fab fa-google-play"></i> Download</button>
 
@@ -183,7 +239,7 @@
 
     <footer id="footer">
 
-      <p>© Copyright 2019 yourBasketToGo</p>
+      <p>© Copyright 2019 <snap class="logofoot">yourBasketToGo</snap></p>
 
     </footer>
 
