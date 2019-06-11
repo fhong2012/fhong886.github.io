@@ -22,6 +22,22 @@ h2{
   font-family: Montserrat;
   line-height: 1.3;
 }
+
+.mytop{
+padding-left: 30px;padding-right: 0px;padding-top: 30px;margin:10px auto 10px 0px ;width:90%;text-align: center;
+}
+.topimg{
+margin:0 10px;padding-left: 10px;float:left;transform: rotate(0deg);position:relative;
+}
+@media (min-width:900px){
+  .topimg{
+    margin:0 10px;padding-left: 10px;float:left;transform: rotate(18deg);position:relative;
+  .mytop{
+    padding-left: 30px;padding-right: 0px;padding-top: 30px;margin:10px auto 10px 0px ;width:80%
+    }
+  }
+}
+
 #title{
   background-color: lightgreen;
 
@@ -113,4 +129,22 @@ h2{
 }
 .logofoot{
   color:blue;
+}
+
+.mycard{
+  padding: 30px 0 30px 0;
+  text-align: center;
+}
+.shadowhead{
+line-height: 2;
+  background-color: grey;
+}
+.mydeck{
+  width:100%;
+  height: 100%;
+  background-color: white;
+  margin: 0 0 0 0;
+  padding: 30px 30px;
+  text-align: center;
+
 }
