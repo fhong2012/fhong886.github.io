@@ -1,0 +1,298 @@
+
+/*
+https://www.w3schools.com/css/css_font.asp
+https://www.cssfontstack.com/
+https://fonts.google.com/specimen/Merriweather
+
+<link href="https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans|Montserrat|Roboto|Sacramento&display=swap" rel="stylesheet">
+font-family: 'Merriweather', serif;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Sacramento', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+body {
+  font-family: 'Merriweather', serif;
+
+  background-color: lightblue;
+  margin: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  list-style-position: inside;
+  text-align: center;
+}
+
+a{
+  text-decoration:none;
+}
+
+a:hover{
+  color: red;
+}
+.zerobd {
+  font-size: 0.8rem;
+  margin-right: 30px;
+  margin-top: 0px;
+  margin-bottom: : 0px;
+  background-color: lightblue;
+  text-align: right;
+}
+.iconsize0:hover {
+  font-size: 1.2em;
+}
+imgxx {
+  height: 10%;
+  width: 10%;
+}
+
+imgxx:hover {
+  background-color: red;
+  height: 15%;
+  width: 15%;
+}
+
+.peach {
+  border-radius: 30%;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size:3.8rem;
+  color: #66BFBF;
+  width: 60%;
+  margin: 0 auto 0 auto;
+  margin-top: 0px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size:30px;
+  color: blue;
+  margin-top: 0px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size:1.5rem;
+  font-weight: lighter;/* font thickness */
+  line-height: 2;  /* line height */
+  color: green;
+  margin: 0 auto 10px auto;
+}
+
+.titlebox {
+  display: block;
+  visibility: visible;
+}
+.titleClass {
+  display: block;
+  visibility: visible;
+  text-decoration: underline;
+}
+
+.mainbd {
+  background-color: lightblue;
+  text-align: center;
+  margin-bottom: 150px;
+
+}
+
+.box-flyer {
+  height: 320px;
+  width: 300px;
+  margin: 0 auto;
+  background-color: lightblue;
+}
+
+.img-1 {
+  display: block;
+  position: relative;
+  left: 150px;
+  padding-top: 10px;
+  margin-bottom: 0;
+}
+
+.img-2 {
+  display: block;
+  position: relative;
+  right: 150px;
+  padding-bottom: 10px;
+}
+
+.img-3 {
+  display: block;
+  position: relative;
+  margin: auto;
+  padding-bottom: 20px;
+
+}
+
+.iconsizex1 {
+margin-right: 38px;
+}
+
+.iconsizex2 {
+  font-size: 45px;
+  margin:0 auto;
+}
+.iconsizex2:hover {
+  font-size: 55px;
+  margin:0 auto;
+}
+
+hr {
+  width: 30%;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 6px;
+  border-color: grey;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+.sndbd {
+  border-radius: 50px;
+  background-color: powderblue;
+  margin: 10px auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+  line-height:2;
+  font-style: italic;
+  width: 70%;
+
+}
+
+.serviceClass {
+  width: 10%
+  display: block;
+  visibility: visible;
+  text-decoration:none;
+}
+
+.wine {
+  float: left;
+  background-color: silver;
+  margin-right: 20px;
+}
+.circ {
+  border-radius: 80%;
+}
+.curry {
+  float: left;
+  background-color: silver;
+  margin-right: 20px;
+
+  width: 15%;
+}
+.circular {
+  border-radius: 20%;
+}
+
+.contactButton{
+  width: 120px;
+  margin :0 auto;
+  border-radius: 20px;
+  background-color: red;
+}
+
+/* http://www.cssbuttongenerator.com/ */
+
+/*********class selector************/
+.underx {
+  text-decoration: underline;
+  background-color: green;
+  display: inline;
+  visibility: visible;
+  ;
+}
+
+.tb1 {
+  scale: 120%
+}
+
+.refclass {
+  text-align: center;
+}
+
+
+
+
+.trdbd {
+  background-color: skyblue;
+  font-size: 25px;
+  font-style: normal;
+  margin-top: 0px;
+  margin-bottom: : 0px;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.PP {
+  height: 300px;
+  width: 300px;
+  background-color: grey;
+}
+
+.TT {
+  height: 10px;
+  width: 200px;
+  background-color: gold;
+  display: inline-block;
+  position: fixed;
+  ;
+  left: 50px;
+}
+
+.TL {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+}
+
+.ML {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  display: inline-block;
+  position: absolute;
+  left: 100px;
+  top: 137px;
+}
+
+.LL {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  display: inline-block;
+  position: absolute;
+  left: 200px;
+  top: 237px
+}
+
+/*********id selector************/
+#iconsizex:hover {
+  font-size: 50px;
+  color: red;
+}
+
+
+
+.iconsize1:hover {
+  font-size: 60px
+}
+
+td {
+  align: center;
+  text-align: center;
+}
+
+th {
+  text-align: right;
+}
